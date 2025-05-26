@@ -1,0 +1,30 @@
+name: cepidl_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^1.1.6
+  google_fonts: ^6.2.1
+  video_player: ^2.7.0
+  flutter_lints: ^5.0.0
+  camera: ^0.10.0+1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/videos/
+
