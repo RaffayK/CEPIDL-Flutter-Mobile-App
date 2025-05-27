@@ -19,11 +19,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'CEPIDL APP',
       theme: ThemeData(
-        fontFamily: 'IndieFlower',
+        fontFamily: 'PlusJakartaSans',
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,
-        textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        textTheme: ThemeData.light().textTheme.copyWith(
+              bodyLarge: TextStyle(color: kTextColor),
+              bodyMedium: TextStyle(color: kTextColor),
+              titleLarge: TextStyle(color: kTextColor),
+            ),
       ),
       initialRoute: '/splash',
       routes: {

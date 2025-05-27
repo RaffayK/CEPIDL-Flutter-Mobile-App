@@ -3,7 +3,7 @@ import 'package:cepidl_app/constants.dart';
 import 'package:flutter/material.dart';
 
 class StartScreen extends StatefulWidget {
-  const StartScreen({Key? key}) : super(key: key);
+  const StartScreen({super.key});
 
   @override
   State<StartScreen> createState() => _StartScreenState();
@@ -62,7 +62,7 @@ class _StartScreenState extends State<StartScreen> {
         iconTheme: theme.appBarTheme.iconTheme,
       ),
       body: Container(
-        color: theme.colorScheme.background,
+        color: theme.colorScheme.surface,
         child: Center(
           child: isCameraReady && controller != null
               ? ClipRRect(

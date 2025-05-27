@@ -66,6 +66,7 @@ class _DetailScreenState extends State<DetailScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Exercise Details"),
+        foregroundColor: Colors.white,
         backgroundColor: Theme.of(context).primaryColor,
       ),
       body: Padding(

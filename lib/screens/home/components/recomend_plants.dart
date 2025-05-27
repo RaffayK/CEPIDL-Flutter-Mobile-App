@@ -23,6 +23,7 @@ class RecomendsPlants extends StatelessWidget {
               );
             },
           ),
+          SizedBox(width: kDefaultPadding),
           RecomendPlantCard(
             image: "assets/images/undraw_working-out_6ksl.png",
             title: "Curls",
@@ -34,6 +35,7 @@ class RecomendsPlants extends StatelessWidget {
               );
             },
           ),
+          SizedBox(width: kDefaultPadding),
           RecomendPlantCard(
             image: "assets/images/undraw_workout_wqgp.png",
             title: "Squats",
